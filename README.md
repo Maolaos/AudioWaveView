@@ -1,18 +1,18 @@
 # AudioWaveView
 录音音频，根据麦克风声音大小，自动变化的上下浮动波纹效果
 
-
 <com.jyy.audio_wave.WaveView
-       android:layout_width="250dp" 
-       android:layout_height="60dp"
-       android:layout_centerHorizontal="true"
-       waveview:audioCenterLineColor="#333333"
-       waveview:audioWaveColor="#333333"
-       waveview:audioWaveWidth="1dp"
-       waveview:audioCenterLineHeight="0.5dp"
-       waveview:audioSpaceWidth="8dp"
-       waveview:audioWaveHeight="12dp"
-       waveview:audioCenterLine="true"/>
+
+      android:layout_width="250dp" 
+      android:layout_height="60dp"  
+      android:layout_centerHorizontal="true"
+      waveview:audioCenterLineColor="#333333" 
+      waveview:audioWaveColor="#333333" 
+      waveview:audioWaveWidth="1dp"
+      waveview:audioCenterLineHeight="0.5dp"
+      waveview:audioSpaceWidth="8dp" 
+      waveview:audioWaveHeight="12dp"
+      waveview:audioCenterLine="true"/>  
        
        
        <!--音频波纹属性-->
