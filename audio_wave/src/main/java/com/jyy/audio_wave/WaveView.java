@@ -10,6 +10,8 @@ import android.util.AttributeSet;
 import android.view.View;
 
 
+import com.jyy.audio_wave.util.AudioRecoderUtils;
+import com.jyy.audio_wave.util.ThreadPoolUtil;
 
 import java.util.LinkedList;
 import java.util.List;

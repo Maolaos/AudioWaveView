@@ -1,12 +1,9 @@
-package com.jyy.audio_wave;
+package com.jyy.audio_wave.util;
 
 import android.media.MediaRecorder;
-import android.os.Environment;
-import android.os.Handler;
 import android.util.Log;
 
 import java.io.File;
-import java.io.IOException;
 
 /**
  * 音频录制工具类
@@ -102,7 +99,7 @@ public class AudioRecoderUtils {
     }
 
     /**
-     * 获得录音的音量，范围 0-32767, 归一化到0 ~ 1
+     * 返回值0~1之间
      *
      * @return
      */
