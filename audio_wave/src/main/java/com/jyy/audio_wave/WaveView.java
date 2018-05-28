@@ -23,6 +23,7 @@ import java.util.List;
  */
 public class WaveView extends View {
     private static final String TAG = WaveView.class.getSimpleName();
+    //画笔
     private Paint paint;
     //中间横线高度
     private float centerLineHeight;
