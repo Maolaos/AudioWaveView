@@ -37,6 +37,7 @@ public class WaveView extends View {
     private float waveWidth;
     //矩形波纹高度
     private float waveHeight;
+
     //间距宽度
     private float spaceWidth;
     //默认矩形波纹的宽度
