@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onAudioClick(boolean isClick) {
                 if (true){
-
                     mRecord.setBackgroundResource(R.mipmap.audio_recording);
 
                 }else {
