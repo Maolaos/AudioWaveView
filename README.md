@@ -39,6 +39,7 @@
        
   3.引用 
     step1：
+    
     Add it in your root build.gradle at the end of repositories:
     
     
@@ -50,6 +51,7 @@
 	}
       
     step2：
+    
     in your app build.gradle add the dependency
     
     dependencies {
