@@ -6,26 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.jyy.audiowaveview.MainActivity">
 
-   <com.jyy.audio_wave.WaveView
-       android:id="@+id/wv_main_show"
-       android:layout_width="250dp"
-       android:layout_height="80dp"
-       android:layout_centerHorizontal="true"
-       waveview:audioCenterLineColor="#333333"
-       waveview:audioWaveColor="#333333"
-       waveview:audioWaveWidth="1dp"
-       waveview:audioCenterLineHeight="0.5dp"
-       waveview:audioSpaceWidth="8dp"
-       waveview:audioWaveHeight="12dp"
-       waveview:audioCenterLine="true"/>
-   <com.jyy.audiowaveview.AudioRecordView
-       android:id="@+id/btn_main_record"
-       android:layout_width="80dp"
-       android:layout_height="80dp"
-       android:layout_alignParentBottom="true"
-       android:layout_centerHorizontal="true"
-       android:background="@mipmap/audio_record"
-       android:layout_marginBottom="30dp"/>
 
 
 
