@@ -39,7 +39,6 @@ public class WaveView extends View {
     private float waveHeight;
     //间距宽度
     private float spaceWidth;
-
     //默认矩形波纹的宽度
     private int WAVE_W = 10;
     //默认最小的矩形线高，
