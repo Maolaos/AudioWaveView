@@ -1,6 +1,8 @@
 # AudioWaveView
 录音音频，根据麦克风声音大小，自动变化的上下浮动波纹效果
 
+1.xml 示例
+
 <com.jyy.audio_wave.WaveView
 
       android:layout_width="250dp" 
@@ -13,8 +15,10 @@
       waveview:audioSpaceWidth="8dp" 
       waveview:audioWaveHeight="12dp"
       waveview:audioCenterLine="true"/>  
+      
        
-       
+ 2.属性表示
+ 
        <!--音频波纹属性-->
     <declare-styleable name="AudioWaveView">
         <!--音频波纹颜色-->
@@ -33,5 +37,24 @@
         <attr name="audioCenterLine" format="boolean" />
     </declare-styleable>
        
+  3.引用 
+    step1：
+    Add it in your root build.gradle at the end of repositories:
+    
+    
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+      
+    step2：
+    in your app build.gradle add the dependency
+    
+    dependencies {
+	        implementation 'com.github.Maolaos:AudioWaveView:v1.0.1'
+	}
+    
        
-       
+      
