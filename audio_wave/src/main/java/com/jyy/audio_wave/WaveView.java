@@ -63,7 +63,9 @@ public class WaveView extends View {
     private boolean isStart = false;
     // 定时更新线程
     private Runnable mRunable;
+    //是否显示中间横线
     private boolean isCenterLine=true;
+
     public WaveView(Context context) {
         super(context);
     }
