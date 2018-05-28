@@ -53,7 +53,9 @@ public class AudioRecordView extends AppCompatImageView {
                     if (isValid){
                         isValid=false;
                         isMoved = true;
-                        audioClickListener.onAudioClick(false);
+                        if (audioClickListener!=null) {
+                            audioClickListener.onAudioClick(false);
+                        }
 
                     }
 

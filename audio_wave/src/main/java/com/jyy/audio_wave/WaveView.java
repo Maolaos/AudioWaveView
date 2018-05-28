@@ -140,9 +140,9 @@ public class WaveView extends View {
 
             //矩形
             rectWave.left = wave_width - ( i * (waveWidth+spaceWidth) +  waveWidth+spaceWidth );
-            rectWave.top = wave_height - list.get(i) * waveWidth / 2;
+            rectWave.top = wave_height - list.get(i) * wave_height / 2;
             rectWave.right =wave_width  -(  i * (waveWidth+spaceWidth)  + spaceWidth);
-            rectWave.bottom = wave_height + list.get(i) * waveWidth / 2;
+            rectWave.bottom = wave_height + list.get(i) * wave_height / 2;
             canvas.drawRoundRect(rectWave, 6, 6, paint);
         }
     }
@@ -150,7 +150,7 @@ public class WaveView extends View {
     private synchronized void refreshElement() {
         float maxAmp = AudioRecoderUtils.getInstance().getMaxAmplitude();
 
-        int waveH =(int) (waveHeight + Math.round(maxAmp * (6*waveHeight) ));
+        int waveH =(int) (waveHeight + Math.round(maxAmp *waveHeight ));
         list.add(0, waveH);
         list.removeLast();
     }
