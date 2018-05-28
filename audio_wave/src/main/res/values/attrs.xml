@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--音频波纹属性-->
+    <declare-styleable name="AudioWaveView">
+        <!--音频波纹颜色-->
+        <attr name="audioWaveColor" format="color"/>
+        <!--音频波纹宽度-->
+        <attr name="audioWaveWidth" format="dimension"/>
+        <!--音频波纹最低高度-->
+        <attr name="audioWaveHeight" format="dimension"/>
+        <!--音频波纹空隙宽度-->
+        <attr name="audioSpaceWidth" format="dimension" />
+        <!--音频中心线条颜色-->
+        <attr name="audioCenterLineColor" format="color" />
+        <!--音频中心线条高度-->
+        <attr name="audioCenterLineHeight" format="dimension" />
+        <!--是否有中心线条-->
+        <attr name="audioCenterLine" format="boolean" />
+    </declare-styleable>
+
+
+</resources>
